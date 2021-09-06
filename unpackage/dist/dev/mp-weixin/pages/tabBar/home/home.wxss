@@ -1,0 +1,374 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home {
+  padding-top: 0rpx;
+  font-family: '苹方-简';
+  width: 750rpx;
+  height: 5000rpx;
+}
+.home .top-bar {
+  width: 100%;
+  height: 120rpx;
+  background-color: white;
+  opacity: 0.9;
+  padding-top: 29rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  top: 0rpx;
+}
+.home .top-bar image {
+  width: 80rpx;
+  height: 62rpx;
+  margin: 0 30rpx 0 28rpx;
+}
+.home .top-bar .input {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  color: #1f1f1f;
+  line-height: 62rpx;
+  font-size: 26rpx;
+  padding-left: 16rpx;
+  width: 589rpx;
+  height: 62rpx;
+  background-color: #EEEEEE;
+  border-radius: 31rpx;
+}
+.home .top-bar .input .location {
+  font-size: 27rpx;
+  color: black;
+  padding-right: 20rpx;
+}
+.home .top-bar .input .input-search {
+  padding-left: 20rpx;
+  color: #888888;
+}
+.home .top-img {
+  margin-top: 126rpx;
+  height: 294rpx;
+  width: 694rpx;
+  padding-left: 28rpx;
+}
+.home .top-img image {
+  width: 694rpx;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.home .recommend-function-wrapper {
+  width: 100%;
+  height: 324rpx;
+  margin-left: 28rpx;
+  margin-top: 15rpx;
+}
+.home .recommend-function-wrapper .main-content {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  height: 250rpx;
+}
+.home .recommend-function-wrapper .main-content .recommend-function {
+  display: inline-block;
+  height: 100%;
+  width: 750rpx;
+}
+.home .recommend-function-wrapper .main-content .recommend-function .row-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.home .recommend-function-wrapper .main-content .recommend-function .row-wrapper .row {
+  width: 694rpx;
+  height: 125rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.home .recommend-function-wrapper .main-content .recommend-function .row-wrapper .row .recommend-function-item {
+  padding-top: 15rpx;
+  width: 128rpx;
+  height: 132rpx;
+  text-align: center;
+}
+.home .recommend-function-wrapper .main-content .recommend-function .row-wrapper .row .recommend-function-item image {
+  width: 70rpx;
+  height: 70rpx;
+  margin-bottom: -5rpx;
+}
+.home .recommend-function-wrapper .main-content .recommend-function .row-wrapper .row .recommend-function-item .title {
+  font-size: 22rpx;
+}
+.home .recommend-function-wrapper .slide-wrapper {
+  height: 44rpx;
+}
+.home .recommend-function-wrapper .slide-wrapper .slide {
+  width: 73rpx;
+  height: 10rpx;
+  background-color: #EEEEEE;
+  margin-top: 18rpx;
+  margin-left: 312rpx;
+  border-radius: 5rpx;
+  position: relative;
+}
+.home .recommend-function-wrapper .slide-wrapper .slide .slide-item {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  border-radius: 5rpx;
+  background-color: #fe7f00;
+}
+.home .new-recommend {
+  margin-top: 15rpx;
+  width: 100%;
+  padding-left: 28rpx;
+  padding-right: 28rpx;
+}
+.home .new-recommend .title {
+  height: 60rpx;
+  width: 694rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 15rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.home .new-recommend .title text {
+  line-height: 60rpx;
+  font-size: 35rpx;
+  font-weight: 600;
+  color: black;
+}
+.home .new-recommend .title .more {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #BBBBBB;
+}
+.home .new-recommend .content {
+  width: 694rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.home .new-recommend .content .item-title {
+  margin-top: 18rpx;
+  margin-left: 18rpx;
+  margin-bottom: 5rpx;
+  color: #343434;
+  font-size: 28rpx;
+  font-weight: 560;
+}
+.home .new-recommend .content .other {
+  margin-left: 18rpx;
+  color: #242424;
+  font-size: 24rpx;
+}
+.home .new-recommend .content .item-1 {
+  width: 338rpx;
+  height: 118rpx;
+  background-color: #eff3fe;
+  border-radius: 10rpx;
+}
+.home .new-recommend .content .item-2 {
+  padding-top: 20rpx;
+  margin-top: 18rpx;
+  width: 338rpx;
+  height: 218rpx;
+  border-radius: 10rpx;
+  background-color: #eff3fe;
+}
+.home .new-recommend .content .item-3 {
+  width: 338rpx;
+  height: 218rpx;
+}
+.home .new-recommend .content .item-3 .item-3-1 {
+  border-radius: 10rpx;
+  height: 100rpx;
+  background-color: #eff3fe;
+  width: 100%;
+}
+.home .new-recommend .content .item-3 .item-3-1 view {
+  line-height: 100rpx;
+}
+.home .video {
+  margin-top: 30rpx;
+  width: 100%;
+  padding-left: 28rpx;
+  padding-right: 28rpx;
+}
+.home .video .title {
+  height: 60rpx;
+  width: 694rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 15rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 22rpx;
+}
+.home .video .title text {
+  line-height: 60rpx;
+  font-size: 35rpx;
+  font-weight: 600;
+  color: black;
+}
+.home .video .title .more {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #BBBBBB;
+}
+.home .video .video-item-wrapper {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  height: 220rpx;
+}
+.home .video .video-item-wrapper .video-item {
+  display: inline-block;
+  position: relative;
+  margin-right: 20rpx;
+  width: 397rpx;
+}
+.home .video .video-item-wrapper .video-item image {
+  width: 397rpx;
+  height: 220rpx;
+  border-radius: 10rpx;
+}
+.home .video .video-item-wrapper .video-item .footer {
+  width: 173rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  position: absolute;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: rgba(45, 45, 45, 0.8);
+  bottom: 27rpx;
+  right: 10rpx;
+  color: white;
+}
+.home .video .video-item-wrapper .video-item .footer text {
+  color: white;
+  font-size: 22rpx;
+}
+.home .video .slide-wrapper {
+  height: 44rpx;
+}
+.home .video .slide-wrapper .slide {
+  width: 80rpx;
+  height: 10rpx;
+  background-color: #EEEEEE;
+  margin-top: 37rpx;
+  margin-left: 310rpx;
+  border-radius: 5rpx;
+  position: relative;
+}
+.home .video .slide-wrapper .slide .slide-item {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  border-radius: 5rpx;
+  background-color: #fe7f00;
+}
+.home .partition-recommend {
+  margin-top: 10rpx;
+  width: 100%;
+  padding-left: 28rpx;
+  padding-right: 28rpx;
+}
+.home .partition-recommend .title {
+  height: 60rpx;
+  width: 694rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 15rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.home .partition-recommend .title text {
+  line-height: 60rpx;
+  font-size: 35rpx;
+  font-weight: 600;
+  color: black;
+}
+.home .partition-recommend .title .more {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #BBBBBB;
+}
+.home .partition-recommend .partition-content {
+  height: 127rpx;
+  width: 694rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.home .partition-recommend .partition-content .partition-item {
+  height: 127rpx;
+  width: 217rpx;
+  background-image: url(/static/pics-4.jpg);
+  background-repeat: round;
+  border-radius: 8rpx;
+}
+.home .partition-recommend .partition-content .partition-item .title {
+  padding-left: 72rpx;
+  width: 217rpx;
+  height: 127rpx;
+  line-height: 127rpx;
+  color: white;
+  font-size: 38rpx;
+  border-radius: 8rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.home .like {
+  margin-top: 40rpx;
+}
+
